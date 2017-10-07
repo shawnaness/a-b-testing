@@ -9,6 +9,8 @@ body {
 	font-family: 'Muli', sans-serif;
 	background-color: gold;
 	text-align: center;
+	padding-left: 0px;
+	padding-right: 0px;
 }
 
 h1 {
@@ -38,10 +40,23 @@ h2 {
 	transform: translate(-50%, -50%);
 }
 
+.information {
+	padding-top: 20px;
+}
+
+.vendor-wrapper {
+	padding-right: 40px;
+}
+
 .vendor-photo {
+	padding-right: 0px;
 	max-width: 200px;
 	max-height: 150px;
-	box-shadow: 0 0 8px rgba(0, 0, 0, .8);
-	-webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
-	-moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+	box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.8);
+	-webkit-box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.8);
+	-moz-box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.8);
+}
+
+.vendor-book-button {
+	margin-bottom: 10px;
 }
